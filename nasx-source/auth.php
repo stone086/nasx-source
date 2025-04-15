@@ -1,0 +1,1 @@
+<?php if($_POST['username']==='admin' && $_POST['password']==='123456'){ session_start(); $_SESSION['login']=true; header('Location: index.php'); } ?>
